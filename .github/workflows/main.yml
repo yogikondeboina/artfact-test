@@ -1,4 +1,4 @@
-name: artfact
+name: test run
 on: 
    push: 
   
@@ -11,6 +11,6 @@ jobs:
       - name: uplode Artfact
         uses: action/uplode-artfact@v3
         with: 
-          name: my-artfact
-          path: my_file.txt
-          retention-days: 5
+         name: my-artfact
+         path: my_file.txt
+         retention-days: 5
